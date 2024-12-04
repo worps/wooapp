@@ -1,0 +1,25 @@
+{
+    "name": "worps/woorun",
+    "version": "2.0.0",
+	"license": "Apache-2.0",
+    "description": "A dual-purpose PHP framework that is compatible with PHP FPM and Swoole",
+	"type": "project",
+	"keywords": ["woocan","swoole"],
+	"homepage": "http://woocan.cn/",
+    "autoload": {
+        "psr-4": {
+            "app_main\\": "app_main/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lht",
+            "email": "1273370842@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0.0",
+		"worps/woocan": "*"
+	}
+}

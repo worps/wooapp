@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e0b97b5c2933125c8d63ad6b6b1cc9a4",
+    "packages": [
+        {
+            "name": "worps/woocan",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/worps/woocan.git",
+                "reference": "c23e853d5d62d9af6f9515561a0189a4966943b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/worps/woocan/zipball/c23e853d5d62d9af6f9515561a0189a4966943b0",
+                "reference": "c23e853d5d62d9af6f9515561a0189a4966943b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Woocan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "lht",
+                    "email": "1273370842@qq.com"
+                }
+            ],
+            "description": "A dual-purpose PHP framework that is compatible with PHP FPM and Swoole",
+            "homepage": "http://woocan.cn/",
+            "keywords": [
+                "framework",
+                "swoole",
+                "woocan"
+            ],
+            "support": {
+                "issues": "https://github.com/worps/woocan/issues",
+                "source": "https://github.com/worps/woocan/tree/main"
+            },
+            "time": "2024-12-04T07:10:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
