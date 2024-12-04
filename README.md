@@ -1,2 +1,2 @@
-# wooapp
+# woorun
 example project for woocan
