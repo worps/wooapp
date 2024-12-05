@@ -1,4 +1,5 @@
 vendor/
+.vscode/
 
 *.log
 .env

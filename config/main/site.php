@@ -9,8 +9,10 @@ $configWindows = [
     ],
     //中间件
     'midware' => [
+        // 系统中间件
         'AccessLog' =>['key'=>['ctrl', 'method', 'time', 'uid', 'arg']],
-        //'XhprofStats' =>['save_path'=>ROOT_PATH.'/tmp/site/xhprof', 'catch_microtime'=>1],
+        // 自定义中间件
+        app_main\midware\costtime::class => [],
     ],
     'cache' => [
         'global'=>['_adapter'=>'Yac', 'prefix'=>'site'],
@@ -47,7 +49,6 @@ $configLinux = [
     //中间件
     'midware' => [
         'AccessLog' =>['key'=>['time', 'uid', 'ctrl', 'method', 'arg']],
-        //'XhprofStats' =>['save_path'=>ROOT_PATH.'/tmp/site/xhprof', 'catch_microtime'=>200],
     ],
     'cache' => [
         'global'=>['_adapter'=>'Yac', 'prefix'=>'site'],
